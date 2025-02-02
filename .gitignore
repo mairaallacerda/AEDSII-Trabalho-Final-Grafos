@@ -1,1 +1,23 @@
-/pycache
+# Diretórios e arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Arquivos de logs
+*.log
+
+# Configurações do ambiente virtual
+venv/
+.env
+*.venv
+
+# Arquivos de saída e gráficos
+output/
+*.png
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
