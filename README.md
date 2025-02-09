@@ -18,7 +18,7 @@ Este repositório contém os arquivos relacionados ao artigo "Análise de Grafos
 
 ## 📂 Estrutura do Repositório
 
-- [`article/`](https://github.com/mairaallacerda/AEDSII-Trabalho-Final-Grafos/blob/main/article/Artigo_Final_AEDS_II__09_02_25.pdf): Contém o artigo científico em formato LaTeX.
+- [`article/`](https://github.com/mairaallacerda/AEDSII-Trabalho-Final-Grafos/blob/main/article/Artigo_Final_AEDS_II__09_02_.pdf): Contém o artigo científico em formato LaTeX.
 - `src/`: Scripts Python utilizados para modelagem e análise dos grafos.
 - `dataset/`: Arquivo CSV com os dados georreferenciados das torres de telecomunicação.
 - `imgs/`: Imagens e gráficos gerados a partir dos experimentos.
