@@ -10,19 +10,15 @@
 </div>
 
 <br>
-<h1 align="center">
-    <a>
-        <img alt="Banner" title="#Banner" style="object-fit: fill; width: 961px, height:200px;" src="imgs/github-header-image.png"/>
-    </a>
-</h1>
+
 
 <div align="justify">
-Este repositório contém os arquivos relacionados ao artigo "Alocação de Frequências em Redes de Telecomunicações: Uma Abordagem Baseada em Coloração de Grafos", que explora a aplicação de algoritmos de coloração para minimizar interferências na distribuição de espectro em redes móveis.
+Este repositório contém os arquivos relacionados ao artigo "Análise de Grafos para Alocação de Frequências em Redes de Telecomunicação", que explora a aplicação de algoritmos de coloração para minimizar interferências na distribuição de espectro em redes móveis.
 </div>
 
 ## 📂 Estrutura do Repositório
 
-- `article/`: Contém o artigo científico em formato LaTeX.
+- [`article/`](https://github.com/mairaallacerda/AEDSII-Trabalho-Final-Grafos/blob/main/article/Artigo_Final_AEDS_II__09_02_25.pdf): Contém o artigo científico em formato LaTeX.
 - `src/`: Scripts Python utilizados para modelagem e análise dos grafos.
 - `dataset/`: Arquivo CSV com os dados georreferenciados das torres de telecomunicação.
 - `imgs/`: Imagens e gráficos gerados a partir dos experimentos.
@@ -35,22 +31,38 @@ Este estudo investiga a alocação de frequências em redes de telecomunicaçõe
 
 </div>
 
-## ⚙️ Ambiente de Desenvolvimento
 
-Os experimentos foram executados em um **Lenovo IdeaPad 3**, com as seguintes especificações:
+## ⚙️ Execução do Código  
 
-- **Processador:** AMD Ryzen 7 5700U com Radeon Graphics (1.80 GHz)
-- **Memória RAM:** 12 GB (utilizável: 9,85 GB)
-- **Sistema Operacional:** Windows 11 Pro (versão 23H2)
-- **Execução do Código:** WSL no Visual Studio Code
+Para rodar os experimentos, é necessário garantir que todas as bibliotecas necessárias estejam instaladas e que o ambiente esteja devidamente configurado.  
 
-## 🔗 Observações
+### 📦 Bibliotecas Necessárias  
 
-<div align="justify">
+- **Bibliotecas:**  
+  - `pandas` - Manipulação de dados  
+  - `geopy` - Cálculo de distâncias geográficas  
+  - `networkx` - Modelagem de grafos  
+  - `matplotlib` - Geração de gráficos  
 
-O modelo de artigo utilizado segue o IEEE Conference Template disponível no Overleaf, acessível pelo [link](https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn).
+Para instalar todas as dependências, utilize o seguinte comando:  
 
-</div>
+```bash
+pip install pandas geopy networkx matplotlib numpy
+```
+
+### 🚀 Como Executar  
+
+1. **Clone o repositório:**  
+   ```bash
+   git clone https://github.com/mairaallacerda/AEDSII-Trabalho-Final-Grafos.git
+   cd AEDSII-Trabalho-Final-Grafos
+   ```
+
+2. **Execute o script principal:**  
+   ```bash
+   python main.py
+   ```
+
 
 ## 📞 Contato
 
