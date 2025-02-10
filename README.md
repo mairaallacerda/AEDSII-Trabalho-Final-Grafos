@@ -55,12 +55,15 @@ pip install pandas geopy networkx matplotlib numpy
 1. **Clone o repositório:**  
    ```bash
    git clone https://github.com/mairaallacerda/AEDSII-Trabalho-Final-Grafos.git
-   cd AEDSII-Trabalho-Final-Grafos
+   cd src
    ```
-
-2. **Execute o script principal:**  
+2. **Acesse a pasta src antes de rodar o script principal**
    ```bash
-   python main.py
+   cd src
+   ```
+3. **Execute o script principal:**  
+   ```bash
+   python3 main.py
    ```
 
 
