@@ -1,4 +1,3 @@
-# graph_functions.py
 import os
 import pandas as pd
 import geopy.distance
@@ -58,9 +57,6 @@ def create_graph(data, threshold=5):
     return G
 
 def draw_graph(G, output_file, title="Grafo de Torres"):
-    """
-    Desenha e salva o grafo.
-    """
     plt.figure(figsize=(15, 12))
     pos = nx.spring_layout(G, k=2)
     nx.draw(
@@ -164,9 +160,7 @@ def visualize_coloring(graph, coloring, output_file, title="Grafo Colorido"):
     print(f"Gráfico salvo em: {output_file}")
 
 def save_results_to_file(file_path, algorithm_name, results):
-    """
-    Salva os resultados da coloração em um arquivo de texto.
-    """
+
     with open(file_path, 'a') as file:
         file.write(f"Resultados da coloração - {algorithm_name}:\n")
         for node, color in results.items():

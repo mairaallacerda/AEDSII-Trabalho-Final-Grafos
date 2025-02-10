@@ -13,7 +13,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     
     ### PARTE 1: GRAFO A PARTIR DO DATASET ###
-    data_file = "dataset/DivinopolisMG.csv"  
+    data_file = "../dataset/DivinopolisMG.csv"  
     data = load_data(data_file)
     
     # Criar o grafo com base no dataset
